@@ -1,0 +1,29 @@
+{
+  "name": "ky_academy",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "Client": "cd ../ && npm start",
+    "Server": "nodemon server.js",
+    "dev": "concurrently \"npm run Client\" \"npm run Server\"",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-scripts": "^5.0.1"
+  }
+}
